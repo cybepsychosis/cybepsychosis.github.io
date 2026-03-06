@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FemboyLang</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Inter:wght@400;600&family=Outfit:wght@700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+
+    <div class="main-wrapper">
+        <header>
+            <div class="nav-container">
+                <a href="#" class="logo">
+                    <div class="logo-icon"></div>
+                    femboylang
+                </a>
+
+                <nav class="nav-links">
+                    <a href="#">Install</a>
+                    <a href="#">Docs</a>
+                    <a href="https://github.com/cybepsychosis/femboylang" target="_blank">GitHub</a>
+                </nav>
+
+                <div class="header-right">
+                    <i data-lucide="search" size="18"></i>
+                    <i data-lucide="milk" size="20" style="color: var(--color-milk)"></i>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="hero-layout">
+                <div class="hero-text">
+                    <h1>Simply<br><span id="typewriter"></span></h1>
+                    <p>FemboyLang is the world's first high-fashion programming language. Fast, elegant, and served with
+                        milk.</p>
+
+                    <div class="hero-buttons">
+                        <a href="#" class="btn-main">Get Started</a>
+                        <div class="install-box" onclick="copyPip()">
+                            <i data-lucide="terminal" size="14"></i>
+                            <code>pip install femboylang</code>
+                        </div>
+                    </div>
+
+                    <div class="steps-mini">
+                        <div class="mini-card">
+                            <h4>1. Brew</h4>
+                            <code>pip install...</code>
+                        </div>
+                        <div class="mini-card">
+                            <h4>2. Style</h4>
+                            <code>hai "hi! :3"</code>
+                        </div>
+                        <div class="mini-card">
+                            <h4>3. Serve</h4>
+                            <code>fml run...</code>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="code-window">
+                    <div class="code-head">
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                        <div class="dot"></div>
+                    </div>
+                    <div class="code-body">
+                        <span style="color: #f5ebe0">uwu</span> user = {<br>
+                        &nbsp;&nbsp;name: <span style="color: #8c7f7c">"Astolfo"</span>,<br>
+                        &nbsp;&nbsp;mood: <span style="color: #8c7f7c">"Happy"</span><br>
+                        }<br><br>
+                        <span style="color: #f5ebe0">hai</span> user.name + <span style="color: #8c7f7c">" says hi!
+                            :3"</span>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="footer-container">
+                <span>© 2026 FemboyLang Collective</span>
+                <div style="display:flex; gap:25px">
+                    <span>Discord</span>
+                    <span>Twitter</span>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
